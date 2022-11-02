@@ -3,6 +3,7 @@ int appWidth, appHeight;
 String title = "Wahoo";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titleFont;
+color purple=#2C08FF; //Not night mode friendly
 //
 size(500, 600); //Portrait
 appWidth = width;
@@ -26,7 +27,7 @@ titleFont = createFont("Harrington", 55); //Verify the font exists in Processing
 rect(titleX, titleY, titleWidth, titleHeight);
 //
 //Text Draw: Repeatedly Executed Code
-fill(); //Ink
+fill(purple); //Ink
 textAlign(); //Align X&Y, see Processing.org / Reference
 fontSize = ;
 textFont(titleFont, fontSize);
