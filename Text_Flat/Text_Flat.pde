@@ -1,5 +1,5 @@
 //Global Variables
-int appWidth, appHeight;
+int appWidth, appHeight, fontSize;
 String title = "Wahoo";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titleFont;
@@ -30,7 +30,7 @@ rect(titleX, titleY, titleWidth, titleHeight);
 fill(purple); //Ink
 textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
 //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-fontSize = ;
+fontSize = 50;
 textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight);
 fill(resetDefaultInk);
