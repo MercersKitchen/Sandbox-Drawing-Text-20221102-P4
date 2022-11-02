@@ -24,3 +24,6 @@ titleFont = createFont("Harrington", 55); //Verify the font exists in Processing
 //
 //Layout our text space and typographical features
 rect(titleX, titleY, titleWidth, titleHeight);
+//
+//Text Draw: Repeatedly Executed Code
+text( title, titleX, titleY, titleWidth, titleHeight);
