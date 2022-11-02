@@ -26,4 +26,9 @@ titleFont = createFont("Harrington", 55); //Verify the font exists in Processing
 rect(titleX, titleY, titleWidth, titleHeight);
 //
 //Text Draw: Repeatedly Executed Code
+fill(); //Ink
+textAlign(); //Align X&Y, see Processing.org / Reference
+fontSize = ;
+textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight);
+fill(resetDefaultInk);
