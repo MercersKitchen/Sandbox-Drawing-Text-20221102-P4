@@ -3,7 +3,7 @@ int appWidth, appHeight;
 String title = "Wahoo";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titleFont;
-color purple=#2C08FF; //Not night mode friendly
+color purple=#2C08FF, resetDefaultInk=#FFFFFF; //Not night mode friendly
 //
 size(500, 600); //Portrait
 appWidth = width;
