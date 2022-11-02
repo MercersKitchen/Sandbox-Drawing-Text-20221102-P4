@@ -28,7 +28,8 @@ rect(titleX, titleY, titleWidth, titleHeight);
 //
 //Text Draw: Repeatedly Executed Code
 fill(purple); //Ink
-textAlign(); //Align X&Y, see Processing.org / Reference
+textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
+//Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
 fontSize = ;
 textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight);
