@@ -18,5 +18,6 @@ titleHeight = appHeight * 1/10;
 //Text Setup, single executed code
 //Font from OS (Operating System)
 String[] fontList = PFont.list(); //To list all fonts available on OS
+printArray(fontList); //For listing all possible fonts
 //
 rect(titleX, titleY, titleWidth, titleHeight);
