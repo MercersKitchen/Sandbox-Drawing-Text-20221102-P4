@@ -36,6 +36,8 @@ textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
 fontSize = 50;
 textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight );
+textAlign(CENTER, BOTTOM); //Align X&Y, see Processing.org / Reference
+//Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
 text( footer, footerX, footerY, footerWidth, footerHeight );
 fill(resetDefaultInk);
 //End Main Program
