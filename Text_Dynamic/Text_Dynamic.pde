@@ -6,6 +6,16 @@ float footerX, footerY, footerWidth, footerHeight;
 PFont titleFont;
 color purple=#2C08FF, resetDefaultInk=#FFFFFF; //Not night mode friendly
 //
+void setup() {}//End setup
+//
+void draw() {}//End draw
+//
+void keyPressed() {}//End keyPressed
+//
+void mousePressed() {}//End mousePressed
+//
+//End Main Program
+
 size(500, 600); //Portrait
 appWidth = width;
 appHeight = height;
