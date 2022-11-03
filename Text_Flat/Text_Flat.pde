@@ -1,7 +1,8 @@
 //Global Variables
 int appWidth, appHeight, fontSize;
-String title = "Wahoo";
+String title = "Wahoo!", footer="Drip";
 float titleX, titleY, titleWidth, titleHeight;
+float footerX, footerY, footerWidth, footerHeight;
 PFont titleFont;
 color purple=#2C08FF, resetDefaultInk=#FFFFFF; //Not night mode friendly
 //
@@ -25,13 +26,15 @@ titleFont = createFont("Harrington", 55); //Verify the font exists in Processing
 //
 //Layout our text space and typographical features
 rect(titleX, titleY, titleWidth, titleHeight);
+rect(footerX, footerY, footerWidth, footerHeight);
 //
 //Text Draw: Repeatedly Executed Code
 fill(purple); //Ink
 textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
 //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-fontSize = 51;
+fontSize = 50;
 textFont(titleFont, fontSize);
-text( title, titleX, titleY, titleWidth, titleHeight);
+text( title, titleX, titleY, titleWidth, titleHeight );
+text( footer, titleX, titleY, titleWidth, titleHeight );
 fill(resetDefaultInk);
 //End Main Program
